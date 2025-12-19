@@ -72,9 +72,9 @@ function finishTest() {
     const wpm = Math.round((correct / 60) * 60);
 
     resultEl.innerHTML = `
-        <p><b>Speed:</b> ${wpm} WPM</p>
-        <p><b>Accuracy:</b> ${accuracy}%</p>
-        <p><b>Correct Words:</b> ${correct}</p>
-        <p><b>Wrong Words:</b> ${totalWords - correct}</p>
+        <p1><b>Speed:</b> ${wpm} WPM</p1><br>
+        <p1><b>Accuracy:</b> ${accuracy}%</p1><br>
+        <p1><b>Correct Words:</b> ${correct}</p1><br>
+        <p1><b>Wrong Words:</b> ${totalWords - correct}</p1>
     `;
 }

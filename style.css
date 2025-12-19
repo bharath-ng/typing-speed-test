@@ -41,6 +41,7 @@ textarea {
 .info {
     margin-top: 10px;
     text-align: center;
+    color: beige;
 }
 
 button {
@@ -54,4 +55,7 @@ button {
 #result {
     margin-top: 20px;
     font-size: 18px;
+}
+p1{
+    color: rgb(194, 194, 214);
 }
